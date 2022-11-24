@@ -26,7 +26,7 @@ export default function App() {
         setGameState('win');
         setStreak(streak + 1);
 
-        if (streak >= 6) { 
+        if (streak >= 5) { 
           showKnights(true);
         }
       } else { 
